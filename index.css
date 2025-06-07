@@ -1,13 +1,11 @@
-h1 {
-  font-family: poppins;
-
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #000;
+  color: #ffffff;
 }
 
-body {
-  background-color: #000;
-  font-family: poppins;
-  color: #ffffff;
-
+h1 {
+  color: #fa774b;
 }
 
 .navigation-links {
@@ -16,8 +14,5 @@ body {
 
 .links a {
   color: #ffffff;
-text-decoration: none;
-
+  text-decoration: none;
 }
-
-
