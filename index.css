@@ -5,7 +5,12 @@ body {
 }
 
 h1 {
-  color: #fa774b;
+  color: goldenrod;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -13,16 +18,32 @@ a {
 }
 
 ul {
+  height: 50px;
+  display: flex;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin: 0;
+  gap: 100px;
 }
 
 .navigation-links {
-  padding: 10px;
+  padding: 0;
 }
 
 .links a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.images-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
