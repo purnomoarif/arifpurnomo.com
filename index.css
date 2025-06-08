@@ -28,12 +28,20 @@ ul {
 }
 
 .navigation-links {
-  padding: 0;
+  display: flex;
+  padding: 10px;
+  gap: 100px;
+  align-items: center;
 }
 
 .links a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.content {
+  margin: 100px auto;
+  max-width: 800px;
 }
 
 .images-gallery {
@@ -42,8 +50,25 @@ ul {
   gap: 50px;
 }
 
-p {
+.intro {
+  max-width: 800px;
+  justify-content: center;
+}
+
+.tech-stack {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 50px;
+}
+
+.connect {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ffffff;
 }
