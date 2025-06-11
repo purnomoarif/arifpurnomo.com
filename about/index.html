@@ -9,78 +9,38 @@
       name="description"
       content="personal website showcasing work, learning, and contact information."
     />
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-    </style>
   </head>
-  <body class="bg-gray-50 text-gray-800 min-h-screen flex flex-col">
-    <!-- Header -->
-    <header class="bg-white shadow-md">
-      <div
-        class="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between"
-      >
-        <a
-          href="/"
-          class="text-2xl font-bold text-blue-700 hover:text-blue-900 transition"
-        >
-          Arif Purnomo
-        </a>
-        <nav class="mt-4 md:mt-0">
-          <ul class="flex space-x-4 text-lg font-medium">
-            <li><a href="/" class="hover:text-blue-600 transition">Home</a></li>
-            <li>
-              <a href="/work" class="hover:text-blue-600 transition">Work</a>
-            </li>
-            <li>
-              <a href="/learn" class="hover:text-blue-600 transition">Learn</a>
-            </li>
-            <li><a href="/about" class="text-blue-700 underline">About</a></li>
-            <li>
-              <a href="/contact" class="hover:text-blue-600 transition"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
+  <body>
+    <header>
+      <a href="/">
+        <h1>Arif Purnomo</h1>
+      </a>
+      <nav class="navigation-links sitemap">
+        <ul class="links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/work">Work</a></li>
+          <li><a href="/learn">Learn</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- Main Content -->
-    <main class="flex-1 flex items-center justify-center">
-      <section
-        class="bg-white rounded-xl shadow-lg p-8 max-w-2xl w-full mt-10 mb-10"
-      >
-        <h1 class="text-4xl font-extrabold text-blue-700 mb-2 tracking-tight">
-          About
-        </h1>
-        <p class="mb-4 text-lg leading-relaxed">
-          Hi, I'm <span class="font-bold text-blue-700">Arif</span>, a software
-          developer who loves working on fullstack development, from frontend to
-          backend. I live in Jakarta with my wife, Dinda, who's always been my
-          biggest supporter, and our two amazing sons whom I love dearly.
-        </p>
-        <p class="text-lg leading-relaxed">
-          I'm passionate about learning new things, especially anything related
-          to technology. Outside of coding, I enjoy reading—particularly about
-          motivation and history, which I find both inspiring and enriching.
-        </p>
-      </section>
+    <main class="about">
+      <p>Frontend</p>
+      <p>Backend</p>
+      <p>Fullstack</p>
+      <p>UI/UX Design</p>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-white border-t py-4">
-      <div class="container mx-auto px-4 text-center text-gray-500">
-        <b class="text-blue-700">Arif Purnomo</b>
-      </div>
+    <footer>
+      <p><b>Arif Purnomo</b></p>
     </footer>
   </body>
 </html>
