@@ -6,18 +6,11 @@ body {
 
 h1 {
   color: goldenrod;
+  margin-top: 0;
+  padding: 0;
 }
 
-h2 {
-  display: flex;
-  justify-content: center;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
+.links {
   height: 50px;
   display: flex;
   justify-content: center;
@@ -27,6 +20,13 @@ ul {
   gap: 100px;
 }
 
+.links a {
+  color: white;
+  text-decoration: none;
+
+  font-size: 15px;
+}
+
 .navigation-links {
   display: flex;
   padding: 10px;
@@ -34,41 +34,126 @@ ul {
   align-items: center;
 }
 
-.links a {
+.navigation-links .top a {
+  color: white;
+}
+
+.links a:hover {
   color: #ffffff;
   text-decoration: none;
+  background-color: goldenrod;
+  color: white;
 }
 
 .content {
   margin: 100px auto;
   max-width: 800px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .images-gallery {
   display: flex;
   justify-content: center;
   gap: 50px;
-}
-
-.intro {
-  max-width: 800px;
-  justify-content: center;
+  padding: 20px;
 }
 
 .tech-stack {
+  justify-content: center;
+  gap: 1px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.tech-stack .description {
   display: flex;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.tech-stack .description .html {
+  width: 50px;
+  height: 30px;
+  background-color: #f06529;
+}
+
+.tech-stack .description .css {
+  width: 50px;
+  height: 30px;
+  background-color: #f06529;
+}
+
+.tech-stack .description .javascript {
+  width: 100px;
+  height: 30px;
+  background-color: #f06529;
+}
+
+.tech-stack .description .typescript {
+  width: 100px;
+  height: 30px;
+  background-color: #f06529;
+}
+
+.tech-stack .description .nodejs {
+  width: 75px;
+  height: 30px;
+  background-color: #f06529;
+}
+
+.tech-stack .description .react {
+  width: 50px;
+  height: 30px;
+  background-color: #f06529;
+}
+
+.connect {
   justify-content: center;
   gap: 50px;
 }
 
-.connect {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
+.connect .end {
+  margin-bottom: 100px;
 }
 
 footer {
   display: flex;
   justify-content: center;
   border-top: 1px solid #ffffff;
+}
+
+/* styling halaman contact */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.contact-footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ffffff;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.contact-form .submit-button {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+}
+
+.contact-form .message {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f06529;
+  color: white;
 }
