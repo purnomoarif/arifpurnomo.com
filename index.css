@@ -79,6 +79,10 @@ a {
   padding: 20px;
 }
 
+.photo-2 {
+  transform: rotate(15deg);
+}
+
 .tech-stack {
   justify-content: center;
   gap: 1px;
