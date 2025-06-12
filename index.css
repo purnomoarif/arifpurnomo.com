@@ -55,12 +55,12 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .tech-stack {
   justify-content: center;
-  gap: 1px;
+  gap: 10px;
   margin-top: 20px;
   margin-bottom: 0;
   padding: 0;
@@ -109,12 +109,15 @@ h1 {
 }
 
 .connect {
-  justify-content: center;
-  gap: 50px;
+  margin: 100px auto;
+  max-width: 700px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .connect .end {
-  margin-bottom: 100px;
+  padding: 10px;
 }
 
 footer {
@@ -210,10 +213,51 @@ footer {
   margin-bottom: 20px;
 }
 
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
 .about-footer {
   display: flex;
   justify-content: center;
-
-  margin-bottom: 0;
+  margin-top: 50px;
+  margin-bottom: 20px;
   padding: 0;
+}
+
+/* styling page work */
+.work-header {
+  margin: 100px auto;
+  max-width: 800px;
+  margin-top: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.work-content {
+  margin: 100px auto;
+  max-width: 800px;
+  margin-top: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* styling page learn */
+
+.learn-header {
+  margin: 100px auto;
+  max-width: 800px;
+  margin-top: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.learn-content {
+  margin: 100px auto;
+  max-width: 800px;
+  margin-top: 0;
+  padding: 20px;
+  margin-bottom: 20px;
 }
