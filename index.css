@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Poppins, sans-serif;
   background-color: #000;
@@ -10,10 +16,32 @@ h1 {
   padding: 0;
 }
 
+a {
+  color: #f06529;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
 .links {
   height: 50px;
   display: flex;
-  justify-content: center;
+  align-items: center;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -24,13 +52,6 @@ h1 {
   color: white;
   text-decoration: none;
   font-size: 15px;
-}
-
-.navigation-links {
-  display: flex;
-  padding: 10px;
-  gap: 100px;
-  align-items: center;
 }
 
 .navigation-links .top a {
@@ -44,8 +65,9 @@ h1 {
   color: white;
 }
 
-.content {
+.container {
   margin: 100px auto;
+  width: 100%;
   max-width: 700px;
   margin-top: 0;
   margin-bottom: 20px;
@@ -56,6 +78,10 @@ h1 {
   justify-content: center;
   gap: 50px;
   padding: 10px;
+}
+
+.photo-2 {
+  transform: rotate(15deg);
 }
 
 .tech-stack {
@@ -120,7 +146,9 @@ h1 {
   padding: 10px;
 }
 
-footer {
+footer,
+.footer {
+  padding: 10px;
   display: flex;
   justify-content: center;
   border-top: 1px solid #ffffff;
@@ -134,12 +162,6 @@ footer {
   margin-top: 0;
   padding: 20px;
   margin-bottom: 20px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .contact-form {
@@ -209,7 +231,6 @@ footer {
   margin: 100px auto;
   max-width: 700px;
   margin-top: 0;
-  padding: 20px;
   margin-bottom: 20px;
 }
 
@@ -227,6 +248,7 @@ h2 {
   padding: 0;
 }
 
+<<<<<<< HEAD
 /* styling page work */
 .work-header {
   margin: 100px auto;
@@ -260,4 +282,10 @@ h2 {
   margin-top: 0;
   padding: 20px;
   margin-bottom: 20px;
+=======
+.space-y {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+>>>>>>> 69aab54e69fd46be00a4daf64f40cb412039fda0
 }

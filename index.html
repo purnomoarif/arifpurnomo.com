@@ -18,12 +18,12 @@
     />
   </head>
 
-  <body>
+  <body class="site">
     <nav class="navigation-links top">
       <h1>
         <span class="name">Arif Purnomo</span>
       </h1>
-      <ul class="links">
+      <ul class="container links">
         <li><a href="/">Home</a></li>
         <li><a href="/work">Work</a></li>
         <li><a href="/learn">Learn</a></li>
@@ -32,14 +32,15 @@
       </ul>
     </nav>
 
-    <main class="content">
-      <section>
-        <p>About Me</p>
+    <main class="site-content container space-y">
+      <section class="space-y">
         <p>
           Hi, I'm Arif, a software developer who loves working on fullstack
-          development, from frontend to backend. I live in Jakarta with my wife,
-          Dinda, who's always been my biggest supporter, and our two amazing
-          sons whom I love dearly.
+          development, from frontend to backend.
+        </p>
+        <p>
+          I live in Jakarta with my wife, Dinda, who's always been my biggest
+          supporter, and our two amazing sons whom I love dearly.
         </p>
         <p>
           I'm passionate about learning new things, especially anything related
@@ -50,11 +51,17 @@
 
       <section class="images-gallery">
         <img src="images/photo-1.jpg" alt="Photo 1" width="200" height="200" />
-        <img src="images/photo-2.jpg" alt="Photo 2" width="200" height="200" />
+        <img
+          class="photo-2"
+          src="images/photo-2.jpg"
+          alt="Photo 2"
+          width="200"
+          height="200"
+        />
         <img src="images/photo-3.jpg" alt="Photo 3" width="200" height="200" />
       </section>
 
-      <section class="tech-stack">
+      <section class="tech-stack space-y">
         <h3>My Tech Stack</h3>
         <ul class="description">
           <li class="html">HTML</li>
@@ -66,8 +73,8 @@
         </ul>
       </section>
 
-      <section class="connect">
-        <h4>Let's Connect</h4>
+      <section class="connect space-y">
+        <h3>Let's Connect</h3>
         <p class="end">
           I'm always open to new opportunities and collaborations. If you want
           to connect, feel free to reach out via my
@@ -80,7 +87,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <p><b>Arif Purnomo</b> Copyright © 2025</p>
     </footer>
   </body>
